@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jared Music Oficial - Convirtiendo emociones en melodías. Música romántica y emotiva.">
+    <meta name="keywords" content="música, canciones románticas, jared music, emociones, melodías">
+    <meta name="author" content="Jared Music Oficial">
+    <meta property="og:title" content="Jared Music Oficial">
+    <meta property="og:description" content="Bienvenido a Jared Music Oficial. Un lugar donde cada canción cuenta una historia.">
+    <meta property="og:type" content="website">
+    <title>Jared Music Oficial - Convirtiendo Emociones en Melodías</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <i class="fas fa-music"></i>
+                <span>Jared Music</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+                <li><a href="#musica" class="nav-link">Música</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="title">Jared Music Oficial</h1>
+                <p class="subtitle">"Convirtiendo emociones en melodías."</p>
+                <p class="description">Bienvenido a mi mundo musical. Aquí encontrarás canciones originales, emociones convertidas en melodías y música creada desde el corazón.</p>
+                <div class="hero-buttons">
+                    <a href="#musica" class="btn btn-primary">Escucha Ahora</a>
+                    <a href="#contacto" class="btn btn-secondary">Contacto</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="music-logo">
+                    <i class="fas fa-microphone"></i>
+                    <i class="fas fa-music"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Soy Jared</h3>
+                    <p>Un creador apasionado por la música y las emociones. Mi objetivo es expresar sentimientos reales a través de canciones que conecten con las personas.</p>
+                    <p>Bienvenido a Jared Music Oficial, un espacio dedicado a la música, los sentimientos y las historias convertidas en canciones. Aquí encontrarás temas originales, letras románticas, canciones sobre el amor a distancia, reflexiones musicales y mucho más.</p>
+                    <p class="quote">"La distancia separa cuerpos, pero la música une corazones."</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>+50</h4>
+                            <p>Canciones</p>
+                        </div>
+                        <div class="stat">
+                            <h4>+100K</h4>
+                            <p>Seguidores</p>
+                        </div>
+                        <div class="stat">
+                            <h4>+1M</h4>
+                            <p>Reproducciones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN VIDEOS DE YOUTUBE -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Videos Destacados</h2>
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Último Lanzamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Último Lanzamiento</h3>
+                    <p>Mi canción más reciente, una balada romántica que toca el corazón.</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="Canción Popular" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Canción Más Popular</h3>
+                    <p>La canción que conquistó millones de corazones alrededor del mundo.</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Playlist Oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h3>Playlist Oficial</h3>
+                    <p>Todas mis canciones en una sola playlist. Disfruta de principio a fin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN REPRODUCTOR DE MÚSICA -->
+    <section id="reproductor" class="music-player-section">
+        <div class="container">
+            <h2>Reproductor de Música</h2>
+            <div class="music-player">
+                <div class="player-cover">
+                    <i class="fas fa-compact-disc"></i>
+                </div>
+                <div class="player-info">
+                    <h3 id="songTitle">Selecciona una canción</h3>
+                    <p id="artistName">Jared Music Oficial</p>
+                </div>
+                <audio id="audioPlayer" controls>
+                    <source src="" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+                <div class="player-controls">
+                    <button id="prevBtn" class="control-btn"><i class="fas fa-step-backward"></i></button>
+                    <button id="playBtn" class="control-btn play-btn"><i class="fas fa-play"></i></button>
+                    <button id="nextBtn" class="control-btn"><i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN MÚSICA DESTACADA -->
+    <section id="musica" class="featured-music">
+        <div class="container">
+            <h2>Música Destacada</h2>
+            <div class="music-grid">
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Lejos de tus Besos</h3>
+                    <p class="duration">3:45</p>
+                    <button class="btn btn-play" onclick="playSong('Lejos de tus Besos', 1)"><i class="fas fa-play"></i> Escuchar</button>
+                </div>
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Miles de Kilómetros</h3>
+                    <p class="duration">4:12</p>
+                    <button class="btn btn-play" onclick="playSong('Miles de Kilómetros', 2)"><i class="fas fa-play"></i> Escuchar</button>
+                </div>
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Corazón en Videollamada</h3>
+                    <p class="duration">3:58</p>
+                    <button class="btn btn-play" onclick="playSong('Corazón en Videollamada', 3)"><i class="fas fa-play"></i> Escuchar</button>
+                </div>
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Siempre Esperándote</h3>
+                    <p class="duration">4:05</p>
+                    <button class="btn btn-play" onclick="playSong('Siempre Esperándote', 4)"><i class="fas fa-play"></i> Escuchar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Fotos Promocionales</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Portada Album 1</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Portada Album 2</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Concierto en Vivo</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Sesión Studio</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Evento Especial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRÓXIMOS LANZAMIENTOS -->
+    <section id="proximos" class="upcoming">
+        <div class="container">
+            <h2>Próximos Lanzamientos</h2>
+            <div class="upcoming-grid">
+                <div class="upcoming-card">
+                    <div class="date">Próximamente</div>
+                    <h3>Nuevo Sencillo Romántico</h3>
+                    <p>Una canción que explorará los sentimientos más profundos del amor.</p>
+                    <p class="coming-soon">🎵 Disponible pronto</p>
+                </div>
+                <div class="upcoming-card">
+                    <div class="date">Próximamente</div>
+                    <h3>Canción Sobre Amor a Distancia</h3>
+                    <p>Una composición especial dedicada a las parejas separadas por la distancia.</p>
+                    <p class="coming-soon">🎵 Disponible pronto</p>
+                </div>
+                <div class="upcoming-card">
+                    <div class="date">Próximamente</div>
+                    <h3>Colaboraciones Futuras</h3>
+                    <p>Proyectos especiales con artistas reconocidos en la industria musical.</p>
+                    <p class="coming-soon">🎵 Disponible pronto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN REDES SOCIALES -->
+    <section id="redes" class="social">
+        <div class="container">
+            <h2>Sígueme</h2>
+            <p class="subtitle">Conecta conmigo en redes sociales para no perderte nada</p>
+            <div class="social-links">
+                <a href="https://youtube.com" target="_blank" class="social-btn youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://tiktok.com" target="_blank" class="social-btn tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://facebook.com" target="_blank" class="social-btn facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ponte en Contacto</h3>
+                    <p>¿Tienes preguntas, propuestas de colaboración o simplemente quieres saludar? ¡Estoy aquí para escucharte!</p>
+                    <div class="contact-details">
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <p>contacto@jaredmusic.com</p>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-music"></i>
+                            <p>Jared Music Oficial</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Jared Music Oficial</h4>
+                    <p>"La distancia separa cuerpos, pero la música une corazones."</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#musica">Música</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sígueme</h4>
+                    <div class="footer-social">
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jared Music Oficial. Todos los derechos reservados. | Diseño: Latidos Musicales</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
